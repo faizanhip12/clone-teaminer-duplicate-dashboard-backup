@@ -9,7 +9,7 @@ const instance = axios.create({
   // baseURL: 'https://rdvqqkfh-5000.inc1.devtunnels.ms/api/v1', // local Farhan Home
   // baseURL: 'http://192.168.0.203:8002/api/v1', // local Maaz
   // baseURL: 'http://192.168.0.140:8004/api/v1', // local Manahil
-  baseURL: 'https://teaminer.academy/api/v1', // Live
+  baseURL: 'https://62w84jwr-8004.inc1.devtunnels.ms/api/v1', // Live
   timeout: 500000,
   headers: {
     Accept: 'application/json',
