@@ -134,8 +134,8 @@ const Certificate = () => {
                 an online non-credit course authorized by Google and offered through The Wealth Alliance
               </p>
               <div className={styles.signature}>
-                <h2 className={styles.googleline}>Teaminer-Academy</h2>
-                <p className={styles.para}>Teaminer-Academy</p>
+                <h2 className={styles.googleline}>The Wealth Alliance</h2>
+                <p className={styles.para}>The Wealth Alliance</p>
               </div>
             </div>
             <div className={styles.col2}>
@@ -146,7 +146,7 @@ const Certificate = () => {
                 <h5 className={styles.verify}>verify at coursera.org/verify/ZRNXREMC2JDZ</h5>
                 <p className={styles.details}>
                   coursera has confirmed the idenitity of this individual and their participation in the
-                  Teaminer-academy
+                  The Wealth Alliance
                 </p>
               </div>
             </div>

@@ -13,7 +13,7 @@ const FallbackSpinner = () => {
         justifyContent: 'center'
       }}
     >
-      <Image src={'/images/logos/logo-animation.gif'} width={200} height={200} style={{ marginTop: 5 }} />
+      <Image src={'/images/logos/wealth-alliance-logo.png'} width={200} height={200} style={{ marginTop: 5 }} />
     </Box>
   )
 }
