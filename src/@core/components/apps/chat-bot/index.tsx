@@ -94,7 +94,7 @@ const ChatBot = () => {
             />
             <Box>
               <Typography variant='body2' sx={{ fontSize: '0.9rem', color: theme.palette.customColors.white }} ml={2}>
-                Teaminer Academy
+                The Wealth Alliance Group
               </Typography>
               <Typography variant='body2' sx={{ fontSize: '10px', color: theme.palette.customColors.white }} ml={2}>
                 Support Team

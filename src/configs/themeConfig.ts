@@ -44,7 +44,7 @@ type ThemeConfig = {
 
 const themeConfig: ThemeConfig = {
   // ** Layout Configs
-  templateName: 'Teaminer Academy' /* App Name */,
+  templateName: 'The Wealth Alliance Group' /* App Name */,
   layout: 'vertical' /* vertical | horizontal */,
   mode: 'dark' /* light | dark */,
   direction: 'ltr' /* ltr | rtl */,
