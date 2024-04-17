@@ -42,7 +42,7 @@ const ProfileLayout = ({ children }: ProfileLayoutProps) => {
                           borderBottom: `2px solid ${theme.palette.customColors.border}`,
                           color: theme.palette.customColors.border
                         }
-                      : { color: theme.palette.common.black }
+                      : { color: theme.palette.common.white }
                   }
                 />
               </Link>
@@ -56,7 +56,7 @@ const ProfileLayout = ({ children }: ProfileLayoutProps) => {
                           borderBottom: `2px solid ${theme.palette.customColors.border}`,
                           color: theme.palette.customColors.border
                         }
-                      : { color: theme.palette.common.black }
+                      : { color: theme.palette.common.white }
                   }
                 />
               </Link>

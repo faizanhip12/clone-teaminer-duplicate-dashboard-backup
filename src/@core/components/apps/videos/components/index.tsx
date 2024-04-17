@@ -61,7 +61,7 @@ const LiveStartAtBox = styled(Box)<BoxProps>(({ theme }) => ({
   lineHeight: 0,
   margin: '10px',
   width: 'auto',
-  boxShadow: `-1px 3px 3px 4px ${theme.palette.customColors.blue}`
+  boxShadow: `-1px 3px 3px 4px ${theme.palette.customColors.dark}`
 }))
 
 const VideoComp = ({ videoIndex }: { videoIndex: number }) => {

@@ -33,7 +33,7 @@ const AdminDashboard = () => {
     <>
       <Typography variant='h4'>Dashboard</Typography>
       <Typography variant='h6' color={theme.palette.common.black}>
-        Welcome To Teaminer Academy Dashboard
+        Welcome To The Wealth Alliance Group Dashboard
       </Typography>
       <Grid container spacing={5} mt={0}>
         <Grid item xl={6} lg={6} md={12} xs={12} mt={0}>

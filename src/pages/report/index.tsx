@@ -22,7 +22,7 @@ const ACLPage = () => {
           <CardHeader title='Common' />
           <CardContent>
             <Typography sx={{ mb: 4 }}>Report</Typography>
-            <Typography sx={{ color: 'primary.main' }}>Teaminer</Typography>
+            <Typography sx={{ color: 'primary.main' }}>The Wealth Alliance</Typography>
           </CardContent>
         </Card>
       </Grid>

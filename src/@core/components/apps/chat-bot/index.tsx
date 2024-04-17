@@ -88,13 +88,13 @@ const ChatBot = () => {
         <Box sx={{ pt: 2, pb: 3, px: 4 }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Avatar
-              alt='teaminer-logo'
-              src={'/images/teaminer-logo.png'}
+              alt='wealth-alliance-logo'
+              src={'/images/wealth-alliance-logo.png'}
               sx={{ width: '1.5rem', height: '1.5rem', objectFit: 'contain' }}
             />
             <Box>
               <Typography variant='body2' sx={{ fontSize: '0.9rem', color: theme.palette.customColors.white }} ml={2}>
-                Teaminer Academy
+                The Wealth Alliance Group
               </Typography>
               <Typography variant='body2' sx={{ fontSize: '10px', color: theme.palette.customColors.white }} ml={2}>
                 Support Team
@@ -103,7 +103,7 @@ const ChatBot = () => {
           </Box>
         </Box>
       </CardBoxSingle>
-      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100% - 50px)' }}>
+      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100% - 50px)', background: 'linear-gradient(180deg, rgb(33, 33, 33) -73.58%, #0c0c0c 97.53%)' }}>
         <Conversation lastMessageRef={lastMessageRef} />
         <Box sx={{ display: 'flex' }}>
           <Box

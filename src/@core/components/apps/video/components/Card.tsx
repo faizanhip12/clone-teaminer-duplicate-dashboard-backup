@@ -92,7 +92,7 @@ const LiveThumbnailBox = styled(Box)<BoxProps & { isModalOpen?: boolean }>(({ th
   margin: '10px',
   width: 'auto',
   zIndex: !isModalOpen ? 99999 : 0,
-  boxShadow: `-1px 3px 3px 4px ${theme.palette.customColors.blue}`
+  boxShadow: `-1px 3px 3px 4px ${theme.palette.customColors.dark}`
 }))
 
 const IconButtonWrapper = styled(IconButton)<IconButtonProps>(({ theme }) => ({

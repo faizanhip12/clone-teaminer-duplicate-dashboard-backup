@@ -26,7 +26,7 @@ const Page = () => {
           Thank You
         </Typography>
         <Box>
-          <Typography>You Subscribed Teaminer Academy, Thanks for choosing us!...</Typography>
+          <Typography>You Subscribed The Wealth Alliance Group, Thanks for choosing us!...</Typography>
         </Box>
         <Box>
           <Button variant='contained' onClick={() => push('/payment')}>

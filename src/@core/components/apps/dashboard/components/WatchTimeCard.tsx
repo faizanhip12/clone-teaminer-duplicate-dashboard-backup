@@ -25,7 +25,7 @@ const WatchTimeCard = () => {
     markers: {
       strokeWidth: 7,
       strokeOpacity: 1,
-      colors: ['#07c'],
+      colors: ['#0c0c0c'],
       strokeColors: ['#fff']
     },
     dataLabels: {
