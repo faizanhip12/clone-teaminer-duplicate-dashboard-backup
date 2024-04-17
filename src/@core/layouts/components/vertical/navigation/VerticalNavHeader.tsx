@@ -532,7 +532,7 @@ const VerticalNavHeader = (props: Props) => {
                 </defs>
               </svg> */}
               <div style={{ width: 200, height: 'auto', paddingLeft: '20px' }}>
-                <Image src={'/images/wealth-alliance-logo.png'} width={200} height={150} />
+                <Image src={'/images/wealth-alliance-logo.png'} width={200} height={200} />
               </div>
               {/* <HeaderTitle variant='h6' sx={{ ...menuCollapsedStyles, ...(navCollapsed && !navHover ? {} : { ml: 2 }) }}>
               {themeConfig.templateName}

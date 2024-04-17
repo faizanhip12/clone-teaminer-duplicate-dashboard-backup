@@ -72,7 +72,7 @@ export default function CatalogueSingleSelect({
       value={(selected as ICatalogue) || {}}
       onChange={(r, e: any) => setSelected(e)}
       renderOption={(props, option: ICatalogue, { selected }) => (
-        <li {...props} style={{ background: theme.palette.customColors.blue }}>
+        <li {...props} style={{ background: theme.palette.customColors.dark }}>
           <Radio checked={selected} />
           {option.title}
         </li>

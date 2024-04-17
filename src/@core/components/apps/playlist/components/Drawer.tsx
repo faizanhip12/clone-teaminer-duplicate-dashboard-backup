@@ -39,7 +39,7 @@ interface SidebarAddUserType {
 const useStyles = makeStyles((theme: Theme) => ({
   customTimezone: {
     '& div.MuiAutocomplete-root': {
-      border: '1px solid #F3CA41',
+      border: '1px solid #0c0c0c',
       borderRadius: '8px'
     }
   }

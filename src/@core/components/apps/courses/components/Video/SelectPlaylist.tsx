@@ -83,7 +83,7 @@ export default function PlayListSingleSelect({
       disableCloseOnSelect
       onChange={(r, e: any) => setSelected(e)}
       renderOption={(props, option: PlaylistApi, { selected }) => (
-        <li {...props} style={{ background: theme.palette.customColors.blue }}>
+        <li {...props} style={{ background: theme.palette.customColors.dark }}>
           <Radio checked={selected} />
           {option.name}
         </li>

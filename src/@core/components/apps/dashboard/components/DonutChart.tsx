@@ -12,10 +12,10 @@ import { Box } from '@mui/material'
 import { DonutImg } from 'src/@core/constants/styles'
 
 const donutColors = {
-  series1: '#F3CA41',
+  series1: '#0c0c0c',
   series2: '#0077cc9e',
-  series3: '#C89220',
-  series4: '#C89220b8'
+  series3: 'rgb(33, 33, 33)',
+  series4: 'rgb(33, 33, 33)'
 }
 
 const DonutChart = () => {

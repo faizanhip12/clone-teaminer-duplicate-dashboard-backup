@@ -25,7 +25,7 @@ const TimelineGraphy = () => {
     markers: {
       strokeWidth: 7,
       strokeOpacity: 1,
-      colors: ['#C89220'],
+      colors: ['rgb(33, 33, 33)'],
       strokeColors: ['#fff']
     },
     dataLabels: {

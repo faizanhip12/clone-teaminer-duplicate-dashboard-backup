@@ -109,7 +109,7 @@ const DatePickerWrapper = styled(Box)<BoxProps>(({ theme }) => {
         '&.react-datepicker__day--in-range, &.react-datepicker__day--in-selecting-range': {
           borderRadius: 0,
           color: theme.palette.primary.main,
-          backgroundColor: `${theme.palette.customColors.blue} !important`,
+          backgroundColor: `${theme.palette.customColors.dark} !important`,
           '&:empty': {
             backgroundColor: 'transparent !important'
           }
@@ -119,13 +119,13 @@ const DatePickerWrapper = styled(Box)<BoxProps>(({ theme }) => {
           borderTopLeftRadius: '50%',
           borderBottomLeftRadius: '50%',
           color: theme.palette.customColors.white,
-          backgroundColor: `${theme.palette.customColors.blue} !important`
+          backgroundColor: `${theme.palette.customColors.dark} !important`
         },
         '&.react-datepicker__day--range-end': {
           borderTopRightRadius: '50%',
           borderBottomRightRadius: '50%',
           color: theme.palette.customColors.white,
-          backgroundColor: `${theme.palette.customColors.blue} !important`
+          backgroundColor: `${theme.palette.customColors.dark} !important`
         },
         '&:focus, &:active': {
           outline: 0
@@ -137,7 +137,7 @@ const DatePickerWrapper = styled(Box)<BoxProps>(({ theme }) => {
         {
           color: theme.palette.text.disabled,
           '&:hover': {
-            backgroundColor: theme.palette.customColors.blue
+            backgroundColor: theme.palette.customColors.dark
           }
         },
         '&.react-datepicker__day--highlighted, &.react-datepicker__day--highlighted:hover': {

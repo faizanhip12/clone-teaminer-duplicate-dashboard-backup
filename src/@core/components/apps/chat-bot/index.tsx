@@ -103,7 +103,7 @@ const ChatBot = () => {
           </Box>
         </Box>
       </CardBoxSingle>
-      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100% - 50px)', background: 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)' }}>
+      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100% - 50px)', background: 'linear-gradient(180deg, rgb(33, 33, 33) -73.58%, #0c0c0c 97.53%)' }}>
         <Conversation lastMessageRef={lastMessageRef} />
         <Box sx={{ display: 'flex' }}>
           <Box

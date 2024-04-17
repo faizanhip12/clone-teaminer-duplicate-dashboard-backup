@@ -71,10 +71,10 @@ const Page = () => {
         <Stack direction='column' sx={{ marginLeft: '20px' }}>
           <Box display={'flex'} m={'auto'}>
             <Box display={'flex'} flexDirection={'column'}>
-              <Typography variant='h4' color={theme.palette.customColors.blue}>
+              <Typography variant='h4' color={theme.palette.customColors.dark}>
                 {(store?.entity && 'course' in store?.entity && store?.entity?.course?.name) || 'Workspace'}
               </Typography>
-              <Typography variant='body1' color={theme.palette.customColors.blue}>
+              <Typography variant='body1' color={theme.palette.customColors.dark}>
                 Short Description Here
               </Typography>
             </Box>

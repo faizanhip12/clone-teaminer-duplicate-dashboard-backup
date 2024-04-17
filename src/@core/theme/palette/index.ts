@@ -5,14 +5,14 @@ import { Skin } from 'src/@core/layouts/types'
 const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
   // ** Vars
   const lightColor = '76, 78, 100'
-  const darkColor = '#0077CC'
+  const darkColor = '234, 234, 255'
   const mainColor = mode === 'light' ? lightColor : darkColor
 
   const defaultBgColor = () => {
     if (skin === 'bordered' && mode === 'light') {
       return '#FFF'
     } else if (skin === 'bordered' && mode === 'dark') {
-      return '#F3CA41'
+      return '#0c0c0c'
     } else if (mode === 'light') {
       return '#0c0c0c'
     } else {
@@ -32,26 +32,27 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
       grey: '#fff',
       lightgrey: '#fff',
       darkgrey: '#fff',
-      themeColor: '#F3CA41',
+      themeColor: '#0c0c0c',
       customgrey: '#eee',
-      blue: '#F3CA41',
+      blue: '#07c',
+      gold: '#0c0c0c',
       bodyBg: mode === 'light' ? '#0c0c0c' : '#0c0c0c', // '#282A42', // Same as palette.background.default but doesn't consider bordered skin
       tooltipBg: mode === 'light' ? '#262732' : '#464A65',
-      tableHeaderBg: mode === 'light' ? '#C89220' : '#C89220',
-      tableFooterBg: mode === 'light' ? '#C89220' : '#C89220',
+      tableHeaderBg: mode === 'light' ? 'rgb(33, 33, 33)' : 'rgb(33, 33, 33)',
+      tableFooterBg: mode === 'light' ? 'rgb(33, 33, 33)' : 'rgb(33, 33, 33)',
       border: '#2b95d7',
       buttonGradient:
         mode === 'light'
-          ? 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)'
-          : 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)',
+          ? 'linear-gradient(180deg, rgb(33, 33, 33) -73.58%, #0c0c0c 97.53%)'
+          : 'linear-gradient(180deg, rgb(33, 33, 33) -73.58%, #0c0c0c 97.53%)',
       buttonGradient_new:
         mode === 'light'
           ? 'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(201, 201, 201) 100%)'
           : 'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(201, 201, 201) 100%)',
       tableRootBg:
         mode === 'light'
-          ? 'linear-gradient(135.45deg, #C89220 11.55%, #0c0c0c 101.52%)'
-          : 'linear-gradient(135.45deg, #C89220 11.55%, #0c0c0c 101.52%)'
+          ? 'linear-gradient(135.45deg, rgb(33, 33, 33) 11.55%, #0c0c0c 101.52%)'
+          : 'linear-gradient(135.45deg, rgb(33, 33, 33) 11.55%, #0c0c0c 101.52%)'
     },
     common: {
       black: '#000',
@@ -59,7 +60,7 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
     },
     mode: mode,
     primary: {
-      light: '#C89220', // '#EFD9AE', // '#787EFF',
+      light: 'rgb(33, 33, 33)', // '#EFD9AE', // '#787EFF',
       main: '#FFF', //'#666CFF',
       dark: '#53aee1', // '#5A5FE0',
       contrastText: '#FFF'
@@ -119,8 +120,8 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
     background: {
       paper:
         mode === 'light'
-          ? 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)'
-          : 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
+          ? 'linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%)'
+          : 'linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%)',
       default: defaultBgColor()
     },
     action: {
@@ -133,11 +134,11 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
       focus: `rgba(${mainColor}, 0.12)`
     },
     linear_gradient: {
-      cardGradient: 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
-      modalGradient: 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
+      cardGradient: 'linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%)',
+      modalGradient: 'linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%)',
       multiGradient:
-        'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%),linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
-      radialGradient: 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)'
+        'linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%),linear-gradient(135.45deg, rgb(54, 54, 54) 11.55%, rgb(0, 0, 0) 101.52%)',
+      radialGradient: 'linear-gradient(180deg, #0c0c0c -17.92%, rgb(33, 33, 33) 82.7%)'
     }
   }
 }
