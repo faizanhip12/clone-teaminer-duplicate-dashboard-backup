@@ -42,7 +42,7 @@ const Button = (theme: Theme) => {
           padding: `${theme.spacing(1.75, 5.5)}`,
           background: 'linear-gradient(0deg, #EFD9AE 0%, #B4772C 98.58%)',
           '&.MuiButton-containedSuccess': {
-            background: 'linear-gradient(360deg, rgb(98, 187, 229) -73.58%, rgb(43, 149, 215) 97.53%)',
+            background: 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)',
             color: '#fff'
           },
           '&.MuiButton-containedPrimary': {

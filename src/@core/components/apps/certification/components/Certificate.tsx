@@ -118,7 +118,7 @@ const Certificate = () => {
             <div className={styles.col1}>
               <div className={styles.certificatelogo}>
                 {' '}
-                <Image src='/images/logos/teaminer-logo.png' alt='teaminer-logo' width={280} height={100} />
+                <Image src='/images/logos/wealth-alliance-logo.png' alt='wealth-alliance-logo' width={280} height={100} />
               </div>
               {certificateData?.createdAt && (
                 <h6 className={styles.date}>
@@ -131,7 +131,7 @@ const Certificate = () => {
               <p className={styles.para}>has successfully completed</p>
               <h2 className={styles.course}>{certificateData?.playList?.name}</h2>
               <p className={styles.para}>
-                an online non-credit course authorized by Google and offered through Teaminer-academy
+                an online non-credit course authorized by Google and offered through The Wealth Alliance
               </p>
               <div className={styles.signature}>
                 <h2 className={styles.googleline}>Teaminer-Academy</h2>

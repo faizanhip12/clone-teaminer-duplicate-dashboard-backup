@@ -12,7 +12,7 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
     if (skin === 'bordered' && mode === 'light') {
       return '#FFF'
     } else if (skin === 'bordered' && mode === 'dark') {
-      return '#232323'
+      return '#F3CA41'
     } else if (mode === 'light') {
       return '#0c0c0c'
     } else {
@@ -32,26 +32,26 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
       grey: '#fff',
       lightgrey: '#fff',
       darkgrey: '#fff',
-      themeColor: '#07c',
+      themeColor: '#F3CA41',
       customgrey: '#eee',
-      blue: '#07c',
+      blue: '#F3CA41',
       bodyBg: mode === 'light' ? '#0c0c0c' : '#0c0c0c', // '#282A42', // Same as palette.background.default but doesn't consider bordered skin
       tooltipBg: mode === 'light' ? '#262732' : '#464A65',
-      tableHeaderBg: mode === 'light' ? '#363636' : '#363636',
-      tableFooterBg: mode === 'light' ? '#363636' : '#363636',
+      tableHeaderBg: mode === 'light' ? '#C89220' : '#C89220',
+      tableFooterBg: mode === 'light' ? '#C89220' : '#C89220',
       border: '#2b95d7',
       buttonGradient:
         mode === 'light'
-          ? 'linear-gradient(360deg, rgb(98, 187, 229) -73.58%, rgb(43, 149, 215) 97.53%)'
-          : 'linear-gradient(360deg, rgb(98, 187, 229) -73.58%, rgb(43, 149, 215) 97.53%)',
+          ? 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)'
+          : 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)',
       buttonGradient_new:
         mode === 'light'
           ? 'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(201, 201, 201) 100%)'
           : 'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(201, 201, 201) 100%)',
       tableRootBg:
         mode === 'light'
-          ? 'linear-gradient(135.45deg, #363636 11.55%, #0c0c0c 101.52%)'
-          : 'linear-gradient(135.45deg, #363636 11.55%, #0c0c0c 101.52%)'
+          ? 'linear-gradient(135.45deg, #C89220 11.55%, #0c0c0c 101.52%)'
+          : 'linear-gradient(135.45deg, #C89220 11.55%, #0c0c0c 101.52%)'
     },
     common: {
       black: '#000',

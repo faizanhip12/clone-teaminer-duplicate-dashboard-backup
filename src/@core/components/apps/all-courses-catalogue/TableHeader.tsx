@@ -19,7 +19,7 @@ const useStyles = makeStyles(
     }
   }: Theme) => ({
     customSelect: {
-      border: '1px solid #07c',
+      border: '1px solid #F3CA41',
       borderRadius: '8px',
       '& label': {
         color: `${black} !important`,
@@ -33,7 +33,7 @@ const useStyles = makeStyles(
     },
     customLanguage: {
       '& div.MuiAutocomplete-root': {
-        border: '1px solid #07c',
+        border: '1px solid #F3CA41',
         borderRadius: '8px',
         '& label': {
           color: `${black} !important`,

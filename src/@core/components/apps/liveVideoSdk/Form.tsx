@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme: Theme) => ({
 
 export const inputStyle = {
   font: 'inherit',
-  border: '1px solid #07c',
+  border: '1px solid #F3CA41',
   borderRadius: '8px',
   // background: 'none',
   height: '1.4375em',

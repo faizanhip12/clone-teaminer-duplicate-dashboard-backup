@@ -10,7 +10,7 @@ const Drawer = (theme: Theme) => {
           border: 0,
           
           color: 'black',
-          backgroundColor: 'linear-gradient(180deg, #C89220 0%, #07C 100%)'
+          backgroundColor: 'linear-gradient(180deg, #C89220 0%, #F3CA41 100%)'
         }
       }
     }

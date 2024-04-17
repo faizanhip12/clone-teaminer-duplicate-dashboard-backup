@@ -141,9 +141,9 @@ const App = (props: ExtendedAppProps) => {
     <Provider store={store}>
       <CacheProvider value={emotionCache}>
         <Head>
-          <title>{`${themeConfig.templateName} - Teaminer - LMS Dashboard`}</title>
-          <meta name='description' content={`${themeConfig.templateName}Teaminer – LMS Dashboard`} />
-          <meta name='keywords' content='Teaminer - LMS Dashboard software' />
+          <title>{`${themeConfig.templateName} - The Wealth Alliance - LMS Dashboard`}</title>
+          <meta name='description' content={`${themeConfig.templateName}The Wealth Alliance – LMS Dashboard`} />
+          <meta name='keywords' content='The Wealth Alliance - LMS Dashboard software' />
           <meta name='viewport' content='initial-scale=1, width=device-width' />
         </Head>
         <PusherProvider>

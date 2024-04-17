@@ -124,7 +124,7 @@ const InviteFriends = () => {
                 <WhatsappShareButton
                   style={{ marginRight: '10px' }}
                   title={'Hey, check this out'}
-                  url={code || 'teaminer.academy'}
+                  url={code || 'wealth.alliance'}
                 >
                   <Image
                     src='/images/icons/project-icons/whatsappIcon.png'
@@ -136,7 +136,7 @@ const InviteFriends = () => {
                 <LinkedinShareButton
                   style={{ marginRight: '10px' }}
                   title={'Hey, check this out'}
-                  url={code || 'teaminer.academy'}
+                  url={code || 'wealth.alliance'}
                 >
                   <Image
                     src='/images/icons/project-icons/linkedInIcon.png'
@@ -145,7 +145,7 @@ const InviteFriends = () => {
                     style={{ cursor: 'pointer' }}
                   />
                 </LinkedinShareButton>
-                <EmailShareButton title={'Hey, check this out'} url={code || 'teaminer.academy'}>
+                <EmailShareButton title={'Hey, check this out'} url={code || 'wealth.alliance'}>
                   <Image
                     src='/images/icons/project-icons/emailIcon.png'
                     width={'36.37px'}

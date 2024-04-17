@@ -72,7 +72,7 @@ const WatchVideo = () => {
                       <Tooltip title={`Click to watch ${textOverflow(watchedVideo?.title, 20)} video`}>
                         <Box
                           sx={{
-                            // background: 'linear-gradient(135.45deg, #363636 11.55%, #0c0c0c 101.52%)',
+                            // background: 'linear-gradient(135.45deg, #C89220 11.55%, #0c0c0c 101.52%)',
                             background: customColors.tableHeaderBg,
                             overflow: 'hidden',
                             borderRadius: 1,

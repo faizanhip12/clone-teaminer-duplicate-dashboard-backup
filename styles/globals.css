@@ -60,7 +60,7 @@ coin-stats-ticker-widget * {
 * {
   scrollbar-width: thin;
 
-  scrollbar-color: #07c #C89220;
+  scrollbar-color: #F3CA41 #C89220;
 }
 
 *::-webkit-scrollbar {
@@ -73,7 +73,7 @@ coin-stats-ticker-widget * {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #07c;
+  background-color: #F3CA41;
   border-radius: 0px;
   border: 0px solid transparent;
 }

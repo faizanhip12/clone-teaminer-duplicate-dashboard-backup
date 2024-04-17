@@ -88,8 +88,8 @@ const ChatBot = () => {
         <Box sx={{ pt: 2, pb: 3, px: 4 }}>
           <Box sx={{ display: 'flex', alignItems: 'center' }}>
             <Avatar
-              alt='teaminer-logo'
-              src={'/images/teaminer-logo.png'}
+              alt='wealth-alliance-logo'
+              src={'/images/wealth-alliance-logo.png'}
               sx={{ width: '1.5rem', height: '1.5rem', objectFit: 'contain' }}
             />
             <Box>
@@ -103,7 +103,7 @@ const ChatBot = () => {
           </Box>
         </Box>
       </CardBoxSingle>
-      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100% - 50px)' }}>
+      <Box sx={{ flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100% - 50px)', background: 'linear-gradient(180deg, #C89220 -73.58%, #F3CA41 97.53%)' }}>
         <Conversation lastMessageRef={lastMessageRef} />
         <Box sx={{ display: 'flex' }}>
           <Box

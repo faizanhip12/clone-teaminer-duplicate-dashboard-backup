@@ -35,7 +35,7 @@ const MessageBody = ({ message, isSender, blink, createdAt, messageRef }: IMessa
         }}
       >
         <CustomAvatar
-          src={!isSender ? '/images/teaminer-logo.png' : undefined}
+          src={!isSender ? '/images/wealth-alliance-logo.png' : undefined}
           imgProps={{
             style: {
               padding: '3px'
