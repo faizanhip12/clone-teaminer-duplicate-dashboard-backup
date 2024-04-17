@@ -37,11 +37,11 @@ code[class*='language-'] {
   font-size: 0.7rem;
   /* background: transparent; */
   border-color: transparent;
-  background: linear-gradient(180deg, #65bde6 -17.92%, #07c 82.7%);
+  background: linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%);
 }
 
 .fc .fc-daygrid-event-harness .fc-event {
-  background: linear-gradient(180deg, #65bde6 -17.92%, #07c 82.7%);
+  background: linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%);
   cursor: pointer;
   border: none;
   color: white;
@@ -60,7 +60,7 @@ coin-stats-ticker-widget * {
 * {
   scrollbar-width: thin;
 
-  scrollbar-color: #07c #65bde6;
+  scrollbar-color: #07c #C89220;
 }
 
 *::-webkit-scrollbar {
@@ -69,7 +69,7 @@ coin-stats-ticker-widget * {
 }
 
 *::-webkit-scrollbar-track {
-  background: linear-gradient(180deg, #fff 0%, #fff 100%), linear-gradient(180deg, #65bde6 -17.92%, #07c 82.7%);
+  background: linear-gradient(180deg, #fff 0%, #fff 100%), linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%);
 }
 
 *::-webkit-scrollbar-thumb {
@@ -91,11 +91,11 @@ coin-stats-ticker-widget * {
 }
 .ck.ck-editor__main > .ck-editor__editable {
   background: transparent !important;
-  border-color: #65bde6 !important;
+  border-color: #C89220 !important;
 }
 .ck-rounded-corners .ck.ck-editor__top .ck-sticky-panel .ck-toolbar {
-  background: linear-gradient(180deg, #65bde6 -17.92%, #07c 82.7%);
-  border-color: #65bde6 !important;
+  background: linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%);
+  border-color: #C89220 !important;
 }
 
 /* 
@@ -105,7 +105,7 @@ coin-stats-ticker-widget * {
   padding: 10px 20px;
   border-radius: 4px;
   color: #fff !important;
-  background: linear-gradient(180deg, #65bde6 -17.92%, #07c 82.7%);
+  background: linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%);
   border: 1px solid #e8e8e8;
 }
 

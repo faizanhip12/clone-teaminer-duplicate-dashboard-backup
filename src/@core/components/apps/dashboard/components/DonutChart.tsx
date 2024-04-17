@@ -14,8 +14,8 @@ import { DonutImg } from 'src/@core/constants/styles'
 const donutColors = {
   series1: '#07C',
   series2: '#0077cc9e',
-  series3: '#65BDE6',
-  series4: '#65bde6b8'
+  series3: '#C89220',
+  series4: '#C89220b8'
 }
 
 const DonutChart = () => {

@@ -21,7 +21,7 @@ const Menu = (theme: Theme, skin: Skin) => {
             borderRadius: 5,
             boxShadow: boxShadow(),
             ...(skin === 'bordered' && { border: `1px solid ${theme.palette.divider}` }),
-            background: 'linear-gradient(180deg, #65BDE6 0%, #07C 100%)',
+            background: 'linear-gradient(180deg, #C89220 0%, #07C 100%)',
             color: '#fff'
           }
         }

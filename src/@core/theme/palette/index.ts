@@ -59,7 +59,7 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
     },
     mode: mode,
     primary: {
-      light: '#65BDE6', // '#EFD9AE', // '#787EFF',
+      light: '#C89220', // '#EFD9AE', // '#787EFF',
       main: '#FFF', //'#666CFF',
       dark: '#53aee1', // '#5A5FE0',
       contrastText: '#FFF'
@@ -119,8 +119,8 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
     background: {
       paper:
         mode === 'light'
-          ? 'linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%)'
-          : 'linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%)',
+          ? 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)'
+          : 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
       default: defaultBgColor()
     },
     action: {
@@ -133,11 +133,11 @@ const DefaultPalette = (mode: PaletteMode, skin: Skin) => {
       focus: `rgba(${mainColor}, 0.12)`
     },
     linear_gradient: {
-      cardGradient: 'linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%)',
-      modalGradient: 'linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%)',
+      cardGradient: 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
+      modalGradient: 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
       multiGradient:
-        'linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%),linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%)',
-      radialGradient: 'linear-gradient(180deg, #65BDE6 -17.92%, #07C 82.7%)'
+        'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%),linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)',
+      radialGradient: 'linear-gradient(180deg, #C89220 -17.92%, #F3CA41 82.7%)'
     }
   }
 }
