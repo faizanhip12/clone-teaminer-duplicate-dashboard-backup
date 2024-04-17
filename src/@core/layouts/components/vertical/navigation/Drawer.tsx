@@ -65,13 +65,13 @@ const Drawer = (props: Props) => {
     if (skin === 'semi-dark' && theme.palette.mode === 'light') {
       return {
         '& .MuiTypography-root': {
-          color: `rgba(${theme.palette.customColors.dark}, 0.87)`
+          color: `rgba(${theme.palette.customColors.dark}, 0.87)`,
         }
       }
     } else if (skin === 'semi-dark' && theme.palette.mode === 'dark') {
       return {
         '& .MuiTypography-root': {
-          color: `rgba(${theme.palette.customColors.light}, 0.87)`
+          color: `rgba(${theme.palette.customColors.light}, 0.87)`,
         }
       }
     } else return {}
@@ -88,7 +88,7 @@ const Drawer = (props: Props) => {
       }
     } else {
       return {
-        backgroundColor: theme.palette.background.default
+        backgroundColor: theme.palette.customColors.darkBg
       }
     }
   }
