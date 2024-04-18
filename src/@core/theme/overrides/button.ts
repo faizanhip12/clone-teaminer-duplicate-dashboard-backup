@@ -44,7 +44,7 @@ const Button = (theme: Theme) => {
           '&.MuiButton-containedSuccess': {
             // background: 'linear-gradient(180deg, rgb(33, 33, 33) -73.58%, #0c0c0c 97.53%)',
             background:'linear-gradient(0deg, rgb(255, 255, 255) 0%, rgb(201, 201, 201) 100%)',
-            color: '#fff'
+            color: '#000'
           },
           '&.MuiButton-containedPrimary': {
             color: '#000',
