@@ -84,6 +84,7 @@ export default function LanguageSelect({ control, ...props }: IField) {
           <FormControl fullWidth>
             <TextField
               {...params}
+              sx={{ background: 'white' }}
               label='Select Language'
               inputProps={{
                 ...params.inputProps,

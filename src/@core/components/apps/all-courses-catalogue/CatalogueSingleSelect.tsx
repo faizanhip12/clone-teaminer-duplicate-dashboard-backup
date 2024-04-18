@@ -77,7 +77,7 @@ export default function CatalogueSingleSelect({
           {option.title}
         </li>
       )}
-      renderInput={params => <TextField {...params} {...props} label='Select Catalogue' placeholder='Catalogue' />}
+      renderInput={params => <TextField sx={{ background: 'white' }} {...params} {...props} label='Select Catalogue' placeholder='Catalogue' />}
     />
   )
 }

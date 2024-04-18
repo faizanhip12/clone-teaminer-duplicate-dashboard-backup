@@ -83,6 +83,7 @@ export default function CountrySelect({ control, ...props }: IField) {
         return (
           <FormControl fullWidth>
             <TextField
+              sx={{ background: 'white' }}
               {...params}
               {...props}
               label='Select country'

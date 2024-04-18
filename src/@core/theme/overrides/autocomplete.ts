@@ -10,11 +10,12 @@ const Autocomplete = (theme: Theme, skin: Skin) => {
     MuiAutocomplete: {
       styleOverrides: {
         paper: {
-          background: theme.palette.customColors.dark,
+          background: '#fff',
+          color:'#000',
           boxShadow: theme.shadows[6],
           ...(skin === 'bordered' && { boxShadow: 'none', border: `1px solid ${theme.palette.divider}` })
         }
-      },
+      }
     }
   }
 }
